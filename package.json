@@ -1,0 +1,23 @@
+{
+  "name": "lingua",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test -w -R spec"
+  },
+  "dependencies": {
+    "express": "3.4.0",
+    "dbc.js": "~1.0.1",
+    "lodash": "~2.2.1",
+    "node-uuid": "~1.4.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "expect.js": "~0.2.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-less": "~0.7.0"
+  }
+}
