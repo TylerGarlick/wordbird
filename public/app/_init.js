@@ -1,1 +1,1 @@
-angular.module('modules', ['core', 'discovery']);
+angular.module('modules', ['core', 'discovery', 'sessions', 'users']);

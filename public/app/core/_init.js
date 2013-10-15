@@ -1,4 +1,4 @@
-angular.module('core', ['ui.bootstrap'])
+angular.module('core', ['ui.bootstrap', 'flashr'])
   .config(['$routeProvider',
     function ($routeProvider) {
       $routeProvider

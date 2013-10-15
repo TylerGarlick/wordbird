@@ -19,12 +19,13 @@ module.exports = function (grunt) {
           , 'public/vendors/lodash/dist/lodash.js'
           , 'public/vendors/bootstrap/dist/js/bootstrap.js'
           //, 'public/vendors/redactor/redactor.js'
-          //, 'public/vendors/toastr/toastr.js'
+          , 'public/vendors/toastr/toastr.js'
           , 'public/vendors/angular/angular.js'
           , 'public/vendors/angular-route/angular-route.js'
           , 'public/vendors/angular-bootstrap/ui-bootstrap-tpls.js'
-          //, 'public/vendors/angular-promise-tracker/promise-tracker.js'
+          , 'public/vendors/angular-promise-tracker/promise-tracker.js'
           , 'public/vendors/angular.flashr/src/angular-flashr.js'
+          , 'public/vendors/angular-cookies/angular-cookies.js'
         ],
         dest: 'public/output/js/vendors.js'
       }

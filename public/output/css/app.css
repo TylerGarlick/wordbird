@@ -5973,6 +5973,19 @@ td.visible-print {
     display: none !important;
   }
 }
+.modal {
+  display: block;
+  width: 100%;
+}
+.modal-default {
+  margin: 0 auto;
+  width: 660px;
+  background-color: white;
+  margin-top: 100px;
+}
+.modal-default h3 {
+  margin: 0px;
+}
 .word-definition {
   margin-top: 25px;
   margin-bottom: 50px;
