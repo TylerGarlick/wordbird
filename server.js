@@ -22,12 +22,19 @@ app.use(express.methodOverride());
 app.use(express.cookieParser());
 app.use(express.session({ secret: nconf.get('sessionSecret') }));
 
+app.set('views', path.join(__dirname, '/app/views'));
+app.set('view engine', 'ejs');
+
 app.use(passport.initialize());
 app.use(passport.session());
 authentication(app);
 
 api(app);
 app.use(app.router);
+
+app.get('/', function(req, res){
+  res.render('index');
+});
 
 
 app.use(express.static(path.join(__dirname, 'public')));
